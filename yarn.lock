@@ -7,10 +7,10 @@
   resolved "https://registry.yarnpkg.com/@atomist/slack-messages/-/slack-messages-1.1.1.tgz#9de42932e89065fb4fe4842978ca2d1ed3424cea"
   integrity sha512-m2OzlTDbhvzK4hgswH9Lx0cdpq1AntXu53Klz5RGkFfuoDvKsnlU7tmtVfNWtUiP0zZbGtrb/BZYH7aB6TRnMA==
 
-"@auto-it/core@^7.11.0":
-  version "7.11.0"
-  resolved "https://registry.yarnpkg.com/@auto-it/core/-/core-7.11.0.tgz#c281c9f4d94679879acf751ddfea9117f5aeeaf0"
-  integrity sha512-NcehLqJI1LI3wZ7muYXHMxP0PZe5JTXlmdwBRBklNZCxt/Kb0TxDw056OEV8Kpv0PruwgQIWWF6VyxBifGAyKw==
+"@auto-it/core@7.11.1-canary.613.7993.0":
+  version "7.11.1-canary.613.7993.0"
+  resolved "https://registry.yarnpkg.com/@auto-it/core/-/core-7.11.1-canary.613.7993.0.tgz#2172b815a0939408946d5b17b63adae057843281"
+  integrity sha512-8NdDfPaglEvdAS+ygP7QRE3yewvqpUqHi0NizP8fUyTjyfECJ4EmDyiCkAVPXa5SeCtQVYoPuTTbaqdoJACwqQ==
   dependencies:
     "@atomist/slack-messages" "~1.1.0"
     "@octokit/graphql" "^4.0.0"
@@ -38,12 +38,12 @@
     typescript-memoize "^1.0.0-alpha.3"
     url-join "^4.0.0"
 
-"@auto-it/npm@^7.11.0":
-  version "7.11.0"
-  resolved "https://registry.yarnpkg.com/@auto-it/npm/-/npm-7.11.0.tgz#1de909e4ce16fdd276635ba9c17dab1f864c5f6f"
-  integrity sha512-KSHKGndoE0GgqE3fzzh2pEP40+N9nwnV5wpCWfCC3HVyBuYemHtCVwAsd70TrssqGEHKIKxCdaRdqlz3IHSBnQ==
+"@auto-it/npm@7.11.1-canary.613.7993.0":
+  version "7.11.1-canary.613.7993.0"
+  resolved "https://registry.yarnpkg.com/@auto-it/npm/-/npm-7.11.1-canary.613.7993.0.tgz#b92a50babaf17c78e1a7e36a1a6295a97202108b"
+  integrity sha512-pKMPdABpFGnSzLpdrnRGtM57cN+pGgr2hKy0Phd+6yPDaN+lW+xOvH8Tyf7ORue6u1xORP/QJDqwyKrsmbQ3Bg==
   dependencies:
-    "@auto-it/core" "^7.11.0"
+    "@auto-it/core" "7.11.1-canary.613.7993.0"
     env-ci "^4.1.1"
     get-monorepo-packages "^1.1.0"
     parse-author "^2.0.0"
@@ -55,12 +55,12 @@
     url-join "^4.0.0"
     user-home "^2.0.0"
 
-"@auto-it/released@^7.11.0":
-  version "7.11.0"
-  resolved "https://registry.yarnpkg.com/@auto-it/released/-/released-7.11.0.tgz#6d446dfa53fc34eebcc7fd226c5d0291db9264bf"
-  integrity sha512-9aP1B/3RPyaWC/dOCSGt8Xuv4fK3vVsAuj8wpt6QH+EMgcI1tB1keom41gBlVu8tSKlg0IGUqx8AWP8IDW8h3g==
+"@auto-it/released@7.11.1-canary.613.7993.0":
+  version "7.11.1-canary.613.7993.0"
+  resolved "https://registry.yarnpkg.com/@auto-it/released/-/released-7.11.1-canary.613.7993.0.tgz#8db11ec1b0917dbe99c49594b5e9e400de733726"
+  integrity sha512-0aA9G0+nWEVIG7vgZkiYg+p1Wdxid96HpcuXm7ENg1OcHvmFbQinf+culUYPV7HdUGbrrW/srsIYdwLgXfOG6Q==
   dependencies:
-    "@auto-it/core" "^7.11.0"
+    "@auto-it/core" "7.11.1-canary.613.7993.0"
     deepmerge "^4.0.0"
     tslib "1.10.0"
 
@@ -201,14 +201,14 @@ author-regex@^1.0.0:
   resolved "https://registry.yarnpkg.com/author-regex/-/author-regex-1.0.0.tgz#d08885be6b9bbf9439fe087c76287245f0a81450"
   integrity sha1-0IiFvmubv5Q5/gh8dihyRfCoFFA=
 
-auto@^7.11.0:
-  version "7.11.0"
-  resolved "https://registry.yarnpkg.com/auto/-/auto-7.11.0.tgz#442216f8de8df940b4f6f1e509a1054e4b139d79"
-  integrity sha512-j4FT3rQOhThkLhSIUS267f2MQ8mscCuwGWE2SVDlA7+z9csvmId2H25ScFwyUt6gNXzwZgOcrjdiS7A6VkASRw==
+auto@7.11.1-canary.613.7993.0:
+  version "7.11.1-canary.613.7993.0"
+  resolved "https://registry.yarnpkg.com/auto/-/auto-7.11.1-canary.613.7993.0.tgz#f5bf151355eb4904a496112b7b93ee5de5c3140a"
+  integrity sha512-ItOi4kz8xQbuJLxtb+hCr06bum8iEN/i935BnSQDzO/exzdjTEPrJ4DvoAVL9RUj+lDUsGjpDulsfsfNyTYRqA==
   dependencies:
-    "@auto-it/core" "^7.11.0"
-    "@auto-it/npm" "^7.11.0"
-    "@auto-it/released" "^7.11.0"
+    "@auto-it/core" "7.11.1-canary.613.7993.0"
+    "@auto-it/npm" "7.11.1-canary.613.7993.0"
+    "@auto-it/released" "7.11.1-canary.613.7993.0"
     chalk "^2.4.2"
     command-line-application "^0.9.3"
     dedent "^0.7.0"
